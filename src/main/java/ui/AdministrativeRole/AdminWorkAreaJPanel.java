@@ -1,6 +1,6 @@
 
 
-package ui;
+package ui.AdministrativeRole;
 
 import Business.Enterprise.Enterprise;
 import Business.UserAccount.UserAccount;
