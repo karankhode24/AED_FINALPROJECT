@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author shivibhatt
+ * @author naman
  */
 public class Validation {
     public static boolean nameValidator(String name) {
