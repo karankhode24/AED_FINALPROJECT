@@ -60,7 +60,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         iconBack = new javax.swing.JLabel();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(102, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -68,9 +68,9 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         lblMedList.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblMedList.setForeground(new java.awt.Color(255, 255, 255));
         lblMedList.setText("Medicine List:");
-        add(lblMedList, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, -1, -1));
+        add(lblMedList, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
-        txtareaMedList.setBackground(new java.awt.Color(36, 47, 65));
+        txtareaMedList.setBackground(new java.awt.Color(0, 153, 204));
         txtareaMedList.setColumns(20);
         txtareaMedList.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtareaMedList.setForeground(new java.awt.Color(255, 255, 255));
@@ -78,7 +78,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         txtareaMedList.setBorder(null);
         jScrollPane1.setViewportView(txtareaMedList);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 330, -1));
 
         btnSubmit.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSubmit.setText("Submit");
@@ -87,7 +87,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
                 btnSubmitActionPerformed(evt);
             }
         });
-        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 222, -1, -1));
+        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
 
         iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
         iconBack.addMouseListener(new java.awt.event.MouseAdapter() {

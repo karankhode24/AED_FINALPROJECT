@@ -59,7 +59,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
@@ -73,7 +73,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 470, -1, -1));
 
-        tblMedList.setBackground(new java.awt.Color(97, 212, 195));
+        tblMedList.setBackground(new java.awt.Color(51, 204, 255));
         tblMedList.setForeground(new java.awt.Color(36, 47, 65));
         tblMedList.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -92,8 +92,6 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
         ));
         tblMedList.setFocusable(false);
         tblMedList.setGridColor(new java.awt.Color(97, 212, 195));
-        tblMedList.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblMedList.setRowHeight(20);
         jScrollPane1.setViewportView(tblMedList);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 630, 180));

@@ -77,13 +77,13 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setMaximumSize(new java.awt.Dimension(1440, 848));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        tblVaccine.setBackground(new java.awt.Color(97, 212, 195));
+        tblVaccine.setBackground(new java.awt.Color(102, 204, 255));
         tblVaccine.setForeground(new java.awt.Color(36, 47, 65));
         tblVaccine.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -101,11 +101,9 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblVaccine.setGridColor(new java.awt.Color(97, 212, 195));
-        tblVaccine.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblVaccine.setRowHeight(20);
         jScrollPane1.setViewportView(tblVaccine);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 440, 480, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 30, 420, 310));
 
         btnReject.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnReject.setText("Reject");
@@ -114,18 +112,23 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
                 btnRejectActionPerformed(evt);
             }
         });
-        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 350, -1, -1));
+        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, 90, 90));
 
         txtComments.setBackground(new java.awt.Color(36, 47, 65));
         txtComments.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtComments.setForeground(new java.awt.Color(255, 255, 255));
         txtComments.setBorder(null);
-        add(txtComments, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, 190, 20));
+        txtComments.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCommentsActionPerformed(evt);
+            }
+        });
+        add(txtComments, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 360, 190, 20));
 
         lblComment.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblComment.setForeground(new java.awt.Color(255, 255, 255));
         lblComment.setText("Comments:");
-        add(lblComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 310, -1, -1));
+        add(lblComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 360, -1, -1));
 
         btnApprove.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnApprove.setText("Approve");
@@ -134,9 +137,9 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
                 btnApproveActionPerformed(evt);
             }
         });
-        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, -1, -1));
+        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, -1, 90));
 
-        tblOrders.setBackground(new java.awt.Color(97, 212, 195));
+        tblOrders.setBackground(new java.awt.Color(102, 204, 255));
         tblOrders.setForeground(new java.awt.Color(36, 47, 65));
         tblOrders.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -154,16 +157,14 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblOrders.setGridColor(new java.awt.Color(97, 212, 195));
-        tblOrders.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblOrders.setRowHeight(20);
         jScrollPane2.setViewportView(tblOrders);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, 480, 180));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 360, 310));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 330, 180, -1));
+        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, 180, -1));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/SALESWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
@@ -171,12 +172,12 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 0, 230, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnApproveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApproveActionPerformed
@@ -288,6 +289,10 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         //dB4OUtil.storeSystem(system);
         //txtComments.setText("");
     }//GEN-LAST:event_btnRejectActionPerformed
+
+    private void txtCommentsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCommentsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCommentsActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
