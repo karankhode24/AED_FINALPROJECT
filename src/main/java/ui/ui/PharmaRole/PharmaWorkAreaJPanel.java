@@ -71,7 +71,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
                 btnAvailableActionPerformed(evt);
             }
         });
-        add(btnAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 40, 180, 80));
+        add(btnAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 470, -1, -1));
 
         tblMedList.setBackground(new java.awt.Color(51, 204, 255));
         tblMedList.setForeground(new java.awt.Color(36, 47, 65));
@@ -94,7 +94,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
         tblMedList.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane1.setViewportView(tblMedList);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 620, 330));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 630, 180));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PHARMAWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
@@ -105,17 +105,17 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
                 btnNotAvailableActionPerformed(evt);
             }
         });
-        add(btnNotAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, 180, 80));
+        add(btnNotAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 470, -1, -1));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 230, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAvailableActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAvailableActionPerformed

@@ -86,12 +86,12 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         separatorLine2 = new javax.swing.JSeparator();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setMinimumSize(new java.awt.Dimension(1190, 848));
         setPreferredSize(new java.awt.Dimension(1190, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        tblOrganization.setBackground(new java.awt.Color(97, 212, 195));
+        tblOrganization.setBackground(new java.awt.Color(0, 102, 204));
         tblOrganization.setForeground(new java.awt.Color(36, 47, 65));
         tblOrganization.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -130,7 +130,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             tblOrganization.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, 480, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 480, 180));
 
         btnCreate.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnCreate.setText("Create Employee");
@@ -139,7 +139,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                 btnCreateActionPerformed(evt);
             }
         });
-        add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 480, -1, -1));
+        add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 440, -1, -1));
 
         cmbOrganization.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         cmbOrganization.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -148,23 +148,23 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                 cmbOrganizationActionPerformed(evt);
             }
         });
-        add(cmbOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 50, 240, -1));
+        add(cmbOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 240, -1));
 
         lblOrganization.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblOrganization.setForeground(new java.awt.Color(255, 255, 255));
         lblOrganization.setText("Organization:");
-        add(lblOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, -1, -1));
+        add(lblOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
         lblName.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblName.setForeground(new java.awt.Color(255, 255, 255));
         lblName.setText("Name:");
-        add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 390, -1, -1));
+        add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 390, -1, 40));
 
-        txtName.setBackground(new java.awt.Color(36, 47, 65));
+        txtName.setBackground(new java.awt.Color(0, 255, 255));
         txtName.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtName.setForeground(new java.awt.Color(255, 255, 255));
         txtName.setBorder(null);
-        add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 390, 210, -1));
+        add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 400, 220, -1));
 
         organizationEmpJComboBox.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         organizationEmpJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -173,17 +173,17 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                 organizationEmpJComboBoxActionPerformed(evt);
             }
         });
-        add(organizationEmpJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 340, 260, -1));
+        add(organizationEmpJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 260, -1));
 
         lblSelectOrg.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblSelectOrg.setForeground(new java.awt.Color(255, 255, 255));
         lblSelectOrg.setText("Select organization to add new employee in:");
-        add(lblSelectOrg, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, -1, -1));
+        add(lblSelectOrg, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, -1, -1));
 
         separatorLine2.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine2.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine2.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 410, 220, 10));
+        add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 420, 220, -1));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/EMPLOYEES.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 0, 100, 850));

@@ -134,7 +134,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         jTable1.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane1.setViewportView(jTable1);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 480, 100));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 510, 150));
 
         btnSubmit.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSubmit.setText("Submit Result to Doctor");
