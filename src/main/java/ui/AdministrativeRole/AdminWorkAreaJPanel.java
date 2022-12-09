@@ -151,7 +151,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         lblText.setText("Currently Logged in as:");
         menuPanel.add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, -1, -1));
 
-        add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, -1));
 
         cardWorkPanel.setBackground(new java.awt.Color(36, 47, 65));
         cardWorkPanel.setMinimumSize(new java.awt.Dimension(1190, 848));

@@ -69,14 +69,11 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
         lblPrice = new javax.swing.JLabel();
         txtPrice = new javax.swing.JTextField();
         separatorLine = new javax.swing.JSeparator();
-        separatorLine1 = new javax.swing.JSeparator();
-        separatorLine2 = new javax.swing.JSeparator();
-        separatorLine3 = new javax.swing.JSeparator();
         lblTitle = new javax.swing.JLabel();
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(102, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -99,7 +96,7 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 620, -1, -1));
 
-        tblWorkRequest.setBackground(new java.awt.Color(97, 212, 195));
+        tblWorkRequest.setBackground(new java.awt.Color(0, 153, 204));
         tblWorkRequest.setForeground(new java.awt.Color(36, 47, 65));
         tblWorkRequest.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -117,26 +114,24 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblWorkRequest.setGridColor(new java.awt.Color(97, 212, 195));
-        tblWorkRequest.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblWorkRequest.setRowHeight(20);
         jScrollPane1.setViewportView(tblWorkRequest);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 110, 520, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 520, 180));
 
         lblQuantity.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblQuantity.setForeground(new java.awt.Color(255, 255, 255));
         lblQuantity.setText("Quantity per dose(in mg):");
-        add(lblQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
+        add(lblQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 310, -1, -1));
 
         lblDose.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblDose.setForeground(new java.awt.Color(255, 255, 255));
         lblDose.setText("Number of doses:");
-        add(lblDose, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 420, -1, -1));
+        add(lblDose, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 360, -1, -1));
 
         lblGap.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblGap.setForeground(new java.awt.Color(255, 255, 255));
         lblGap.setText("Gap between dose(in days):");
-        add(lblGap, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 460, -1, -1));
+        add(lblGap, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 400, -1, -1));
 
         txtQuantity.setBackground(new java.awt.Color(36, 47, 65));
         txtQuantity.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
@@ -147,13 +142,13 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
                 txtQuantityActionPerformed(evt);
             }
         });
-        add(txtQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, 210, -1));
+        add(txtQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 210, -1));
 
         txtDose.setBackground(new java.awt.Color(36, 47, 65));
         txtDose.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtDose.setForeground(new java.awt.Color(255, 255, 255));
         txtDose.setBorder(null);
-        add(txtDose, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 420, 220, 20));
+        add(txtDose, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 210, 20));
 
         txtGap.setBackground(new java.awt.Color(36, 47, 65));
         txtGap.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
@@ -164,46 +159,31 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
                 txtGapActionPerformed(evt);
             }
         });
-        add(txtGap, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 460, 230, -1));
+        add(txtGap, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, 210, -1));
 
         lblPrice.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblPrice.setForeground(new java.awt.Color(255, 255, 255));
         lblPrice.setText("Price (in USD):");
-        add(lblPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 500, -1, -1));
+        add(lblPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 440, -1, -1));
 
         txtPrice.setBackground(new java.awt.Color(36, 47, 65));
         txtPrice.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtPrice.setForeground(new java.awt.Color(255, 255, 255));
         txtPrice.setBorder(null);
-        add(txtPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 500, 250, -1));
+        add(txtPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 210, -1));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 390, 180, -1));
-
-        separatorLine1.setForeground(new java.awt.Color(255, 255, 255));
-        separatorLine1.setMinimumSize(new java.awt.Dimension(1, 12));
-        separatorLine1.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 440, 180, -1));
-
-        separatorLine2.setForeground(new java.awt.Color(255, 255, 255));
-        separatorLine2.setMinimumSize(new java.awt.Dimension(1, 12));
-        separatorLine2.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 480, 180, -1));
-
-        separatorLine3.setForeground(new java.awt.Color(255, 255, 255));
-        separatorLine3.setMinimumSize(new java.awt.Dimension(1, 12));
-        separatorLine3.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 520, 180, -1));
+        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 180, -1));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/ECONOMYWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
-        lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
+        lblText.setText("recently Logged in as:");
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
@@ -310,9 +290,6 @@ public class EconomyWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel lblTitle;
     private javax.swing.JLabel lblValue;
     private javax.swing.JSeparator separatorLine;
-    private javax.swing.JSeparator separatorLine1;
-    private javax.swing.JSeparator separatorLine2;
-    private javax.swing.JSeparator separatorLine3;
     private javax.swing.JTable tblWorkRequest;
     private javax.swing.JTextField txtDose;
     private javax.swing.JTextField txtGap;
