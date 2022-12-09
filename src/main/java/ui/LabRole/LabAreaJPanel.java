@@ -113,12 +113,12 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         barPulse = new javax.swing.JProgressBar();
         barBloodPressure = new javax.swing.JProgressBar();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(0, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTable1.setBackground(new java.awt.Color(97, 212, 195));
+        jTable1.setBackground(new java.awt.Color(0, 204, 255));
         jTable1.setForeground(new java.awt.Color(36, 47, 65));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -132,11 +132,9 @@ public class LabAreaJPanel extends javax.swing.JPanel {
             }
         ));
         jTable1.setGridColor(new java.awt.Color(97, 212, 195));
-        jTable1.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        jTable1.setRowHeight(20);
         jScrollPane1.setViewportView(jTable1);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 480, 100));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 480, 100));
 
         btnSubmit.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSubmit.setText("Submit Result to Doctor");
@@ -145,9 +143,9 @@ public class LabAreaJPanel extends javax.swing.JPanel {
                 btnSubmitActionPerformed(evt);
             }
         });
-        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 530, -1, -1));
+        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 560, -1, -1));
 
-        txtSubmitResult.setBackground(new java.awt.Color(36, 47, 65));
+        txtSubmitResult.setBackground(new java.awt.Color(0, 204, 255));
         txtSubmitResult.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtSubmitResult.setForeground(new java.awt.Color(255, 255, 255));
         txtSubmitResult.setBorder(null);
@@ -313,7 +311,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         lblResult.setText("Result : ");
         add(lblResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, -1, 20));
 
-        txtResult.setBackground(new java.awt.Color(36, 47, 65));
+        txtResult.setBackground(new java.awt.Color(0, 204, 255));
         txtResult.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtResult.setForeground(new java.awt.Color(255, 255, 255));
         txtResult.setBorder(null);
@@ -326,14 +324,14 @@ public class LabAreaJPanel extends javax.swing.JPanel {
                 btnGenerateReportActionPerformed(evt);
             }
         });
-        add(btnGenerateReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 400, -1, -1));
+        add(btnGenerateReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, -1, -1));
 
         lblTo.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblTo.setForeground(new java.awt.Color(255, 255, 255));
         lblTo.setText("To: ");
         add(lblTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 610, -1, -1));
 
-        txtTo.setBackground(new java.awt.Color(36, 47, 65));
+        txtTo.setBackground(new java.awt.Color(0, 204, 255));
         txtTo.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtTo.setForeground(new java.awt.Color(255, 255, 255));
         txtTo.setBorder(null);
@@ -344,7 +342,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         });
         add(txtTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 610, 290, -1));
 
-        txtareaReport.setBackground(new java.awt.Color(36, 47, 65));
+        txtareaReport.setBackground(new java.awt.Color(0, 204, 255));
         txtareaReport.setColumns(20);
         txtareaReport.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtareaReport.setForeground(new java.awt.Color(255, 255, 255));

@@ -77,7 +77,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
         lblValue = new javax.swing.JLabel();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(102, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -89,10 +89,10 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnSendSampleActionPerformed(evt);
             }
         });
-        add(btnSendSample, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
+        add(btnSendSample, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 300, -1, -1));
 
-        tblRequest.setBackground(new java.awt.Color(97, 212, 195));
-        tblRequest.setForeground(new java.awt.Color(36, 47, 65));
+        tblRequest.setBackground(new java.awt.Color(0, 204, 255));
+        tblRequest.setForeground(new java.awt.Color(0, 204, 255));
         tblRequest.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},
@@ -109,11 +109,9 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblRequest.setGridColor(new java.awt.Color(97, 212, 195));
-        tblRequest.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblRequest.setRowHeight(20);
         jScrollPane1.setViewportView(tblRequest);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 690, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 690, 180));
 
         btnAddVaccine.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnAddVaccine.setText("Add Vaccine");
@@ -122,7 +120,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnAddVaccineActionPerformed(evt);
             }
         });
-        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 410, -1, -1));
+        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 210, -1));
 
         btnDelete.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnDelete.setText("Delete Vaccine");
@@ -131,17 +129,17 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnDeleteActionPerformed(evt);
             }
         });
-        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, -1, -1));
+        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 210, -1));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 230, 30));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MANUFACTURINGWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, 90, 850));
