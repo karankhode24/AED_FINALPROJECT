@@ -74,7 +74,6 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
 
         lblVaccineCount = new javax.swing.JLabel();
         btnSchedule = new javax.swing.JButton();
-        VaccinationjDateChooser = new com.toedter.calendar.JDateChooser();
         txtvaccineCount = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblRequests = new javax.swing.JTable();
@@ -85,7 +84,7 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -93,7 +92,7 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         lblVaccineCount.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblVaccineCount.setForeground(new java.awt.Color(255, 255, 255));
         lblVaccineCount.setText("Vaccine Count:");
-        add(lblVaccineCount, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 320, -1, -1));
+        add(lblVaccineCount, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, -1));
 
         btnSchedule.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSchedule.setText("Schedule");
@@ -102,18 +101,20 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
                 btnScheduleActionPerformed(evt);
             }
         });
-        add(btnSchedule, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 430, -1, -1));
+        add(btnSchedule, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 510, -1, -1));
 
-        VaccinationjDateChooser.setBackground(new java.awt.Color(36, 47, 65));
-        add(VaccinationjDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, -1, -1));
-
-        txtvaccineCount.setBackground(new java.awt.Color(36, 47, 65));
+        txtvaccineCount.setBackground(new java.awt.Color(0, 204, 255));
         txtvaccineCount.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtvaccineCount.setForeground(new java.awt.Color(255, 255, 255));
         txtvaccineCount.setBorder(null);
-        add(txtvaccineCount, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 240, -1));
+        txtvaccineCount.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtvaccineCountActionPerformed(evt);
+            }
+        });
+        add(txtvaccineCount, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 240, -1));
 
-        tblRequests.setBackground(new java.awt.Color(97, 212, 195));
+        tblRequests.setBackground(new java.awt.Color(0, 153, 255));
         tblRequests.setForeground(new java.awt.Color(36, 47, 65));
         tblRequests.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -131,13 +132,11 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblRequests.setGridColor(new java.awt.Color(97, 212, 195));
-        tblRequests.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblRequests.setRowHeight(20);
         jScrollPane1.setViewportView(tblRequests);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 485, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 485, 180));
 
-        tblVaccine.setBackground(new java.awt.Color(97, 212, 195));
+        tblVaccine.setBackground(new java.awt.Color(0, 204, 255));
         tblVaccine.setForeground(new java.awt.Color(36, 47, 65));
         tblVaccine.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -155,16 +154,14 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblVaccine.setGridColor(new java.awt.Color(97, 212, 195));
-        tblVaccine.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblVaccine.setRowHeight(20);
         jScrollPane2.setViewportView(tblVaccine);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 500, 520, 180));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 520, 180));
 
         separatorLine1.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine1.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine1.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 340, 220, 10));
+        add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 220, 10));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/DISTRIBUTORWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
@@ -172,12 +169,12 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 230, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnScheduleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnScheduleActionPerformed
@@ -268,9 +265,12 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         dB4OUtil.storeSystem(system);
     }//GEN-LAST:event_btnScheduleActionPerformed
 
+    private void txtvaccineCountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtvaccineCountActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtvaccineCountActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.toedter.calendar.JDateChooser VaccinationjDateChooser;
     private javax.swing.JButton btnSchedule;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

@@ -67,7 +67,7 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
         lblTitle = new javax.swing.JLabel();
         iconBack = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -75,17 +75,17 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
         lblAddVaccine.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblAddVaccine.setForeground(new java.awt.Color(255, 255, 255));
         lblAddVaccine.setText("Add Vaccine");
-        add(lblAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 60, -1, -1));
+        add(lblAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
 
         lblName.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblName.setForeground(new java.awt.Color(255, 255, 255));
         lblName.setText("Name:");
-        add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, -1, -1));
+        add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 70, -1));
 
         lblScientific.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblScientific.setForeground(new java.awt.Color(255, 255, 255));
         lblScientific.setText("Scientific Name:");
-        add(lblScientific, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, -1, -1));
+        add(lblScientific, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
 
         btnAddVaccine.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnAddVaccine.setText("Add");
@@ -94,9 +94,9 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
                 btnAddVaccineActionPerformed(evt);
             }
         });
-        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 260, -1, -1));
+        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, -1, -1));
 
-        txtName.setBackground(new java.awt.Color(36, 47, 65));
+        txtName.setBackground(new java.awt.Color(0, 204, 255));
         txtName.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtName.setForeground(new java.awt.Color(255, 255, 255));
         txtName.setBorder(null);
@@ -105,23 +105,23 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
                 txtNameActionPerformed(evt);
             }
         });
-        add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, 250, -1));
+        add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 250, -1));
 
-        txtScientific.setBackground(new java.awt.Color(36, 47, 65));
+        txtScientific.setBackground(new java.awt.Color(0, 204, 255));
         txtScientific.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtScientific.setForeground(new java.awt.Color(255, 255, 255));
         txtScientific.setBorder(null);
-        add(txtScientific, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 160, 250, -1));
+        add(txtScientific, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 150, 250, -1));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 220, 10));
+        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 170, 220, 10));
 
         separatorLine1.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine1.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine1.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, 220, 10));
+        add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 220, 10));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/HEALTHWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, 90, 850));
