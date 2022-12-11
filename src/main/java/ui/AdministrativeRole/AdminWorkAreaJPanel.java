@@ -52,7 +52,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         cardWorkPanel = new javax.swing.JPanel();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(0, 255, 51));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -82,7 +82,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         lblOrganizations.setFont(new java.awt.Font("Optima", 1, 16)); // NOI18N
         lblOrganizations.setForeground(new java.awt.Color(255, 255, 255));
         lblOrganizations.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblOrganizations.setText("MANAGE ORGANIZATION");
+        lblOrganizations.setText("asasasas");
         lblOrganizations.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblOrganizations.setMaximumSize(new java.awt.Dimension(180, 20));
         lblOrganizations.setMinimumSize(new java.awt.Dimension(180, 20));
@@ -151,7 +151,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         lblText.setText("Currently Logged in as:");
         menuPanel.add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, -1, -1));
 
-        add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, -1));
+        add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, -1));
 
         cardWorkPanel.setBackground(new java.awt.Color(36, 47, 65));
         cardWorkPanel.setMinimumSize(new java.awt.Dimension(1190, 848));
@@ -159,6 +159,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         cardWorkPanel.setLayout(new java.awt.CardLayout());
 
         lblTitle.setBackground(new java.awt.Color(153, 255, 255));
+        lblTitle.setForeground(new java.awt.Color(255, 102, 0));
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/ENTERPRISEADMIN.png"))); // NOI18N
         cardWorkPanel.add(lblTitle, "card2");
 
@@ -214,12 +215,12 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
     // End of variables declaration//GEN-END:variables
     private void setColor(JPanel pane)
     {
-        pane.setBackground(new Color(0,100,100));
+        pane.setBackground(new Color(0,255,255));
     }
     private void resetColor(JPanel [] pane)
     {
         for(int i=0;i<pane.length;i++){
-           pane[i].setBackground(new Color(0,100,100));
+           pane[i].setBackground(new Color(0,255,255));
            
         }
     }
