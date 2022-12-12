@@ -16,5 +16,5 @@ Class Diagram
 
 Sequence Diagram
 
-![sequence](https://user-images.githubusercontent.com/113138473/206946605-1b17fa80-c7c8-4a7f-ac5c-dfce4d849099.png)
+![EntryJFrame_new](https://user-images.githubusercontent.com/113138473/206948558-b402069c-e138-4645-8198-c680713d9ce4.jpg)
 
