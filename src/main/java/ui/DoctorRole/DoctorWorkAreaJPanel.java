@@ -72,6 +72,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
         lblTitle = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
@@ -85,7 +86,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 btnTestActionPerformed(evt);
             }
         });
-        add(btnTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 170, -1));
+        add(btnTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 550, 170, 40));
 
         tblRequest.setBackground(new java.awt.Color(51, 204, 255));
         tblRequest.setForeground(new java.awt.Color(36, 47, 65));
@@ -107,7 +108,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         tblRequest.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane1.setViewportView(tblRequest);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 830, 270));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 840, 270));
 
         btnApprove.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnApprove.setText("Approve Appointment");
@@ -116,10 +117,10 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 btnApproveActionPerformed(evt);
             }
         });
-        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, -1, 110));
+        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 490, 170, 40));
 
         appointmentjDateChooser.setBackground(new java.awt.Color(36, 47, 65));
-        add(appointmentjDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, -1, -1));
+        add(appointmentjDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, -1, -1));
 
         btnPrescribeMed.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnPrescribeMed.setText("Prescribe Medicine");
@@ -128,7 +129,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 btnPrescribeMedActionPerformed(evt);
             }
         });
-        add(btnPrescribeMed, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 370, -1, -1));
+        add(btnPrescribeMed, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 550, 170, 40));
 
         btnReject.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnReject.setText("Reject Appointment");
@@ -137,20 +138,23 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 btnRejectActionPerformed(evt);
             }
         });
-        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 360, -1, 110));
+        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 490, 170, 40));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 300, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 370, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 300, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 370, 230, 30));
 
         lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/DOCTORWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/doc200.gif"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 240, 450));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnTestActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTestActionPerformed
@@ -297,6 +301,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnPrescribeMed;
     private javax.swing.JButton btnReject;
     private javax.swing.JButton btnTest;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblText;
     private javax.swing.JLabel lblTitle;

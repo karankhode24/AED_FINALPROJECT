@@ -66,6 +66,7 @@ public class OrderJPanel extends javax.swing.JPanel {
         btnApprove = new javax.swing.JButton();
         btnReject = new javax.swing.JButton();
         separatorLine = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
@@ -86,17 +87,17 @@ public class OrderJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblOrders);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 610, 190));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 610, 130));
 
         lblComment.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblComment.setForeground(new java.awt.Color(255, 255, 255));
         lblComment.setText("Comments:");
-        add(lblComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        add(lblComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
 
         txtComment.setBackground(new java.awt.Color(153, 204, 255));
         txtComment.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtComment.setBorder(null);
-        add(txtComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 230, -1));
+        add(txtComment, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 370, 230, -1));
 
         btnApprove.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnApprove.setText("Approve");
@@ -105,7 +106,7 @@ public class OrderJPanel extends javax.swing.JPanel {
                 btnApproveActionPerformed(evt);
             }
         });
-        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, 90));
+        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 170, 40));
 
         btnReject.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnReject.setText("Reject");
@@ -114,12 +115,16 @@ public class OrderJPanel extends javax.swing.JPanel {
                 btnRejectActionPerformed(evt);
             }
         });
-        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, 100, 90));
+        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 260, 170, 40));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 220, 10));
+        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 220, 10));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/vaccine_order.gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 50, 650, 470));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnApproveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApproveActionPerformed
@@ -191,6 +196,7 @@ public class OrderJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnApprove;
     private javax.swing.JButton btnReject;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblComment;
     private javax.swing.JSeparator separatorLine;

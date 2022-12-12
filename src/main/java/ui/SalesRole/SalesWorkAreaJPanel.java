@@ -73,11 +73,10 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         tblOrders = new javax.swing.JTable();
         separatorLine = new javax.swing.JSeparator();
-        lblTitle = new javax.swing.JLabel();
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMaximumSize(new java.awt.Dimension(1440, 848));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
@@ -112,9 +111,8 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
                 btnRejectActionPerformed(evt);
             }
         });
-        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, 90, 90));
+        add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 360, 140, 30));
 
-        txtComments.setBackground(new java.awt.Color(36, 47, 65));
         txtComments.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtComments.setForeground(new java.awt.Color(255, 255, 255));
         txtComments.setBorder(null);
@@ -137,7 +135,7 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
                 btnApproveActionPerformed(evt);
             }
         });
-        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, -1, 90));
+        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 120, 30));
 
         tblOrders.setBackground(new java.awt.Color(102, 204, 255));
         tblOrders.setForeground(new java.awt.Color(36, 47, 65));
@@ -165,9 +163,6 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
         add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, 180, -1));
-
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/SALESWORKAREA.png"))); // NOI18N
-        add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
@@ -302,7 +297,6 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblComment;
     private javax.swing.JLabel lblText;
-    private javax.swing.JLabel lblTitle;
     private javax.swing.JLabel lblValue;
     private javax.swing.JSeparator separatorLine;
     private javax.swing.JTable tblOrders;

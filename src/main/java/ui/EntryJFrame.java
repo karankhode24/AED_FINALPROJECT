@@ -54,12 +54,11 @@ public class EntryJFrame extends javax.swing.JFrame {
         txtUsername = new javax.swing.JTextField();
         chkTerms = new javax.swing.JCheckBox();
         btnSignin = new javax.swing.JButton();
-        iconLogo = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         iconExit = new javax.swing.JLabel();
         lblRights = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         signoutPanel = new javax.swing.JPanel();
         separatorLine3 = new javax.swing.JSeparator();
         lblText = new javax.swing.JLabel();
@@ -78,13 +77,13 @@ public class EntryJFrame extends javax.swing.JFrame {
         signinPanel.setPreferredSize(new java.awt.Dimension(1440, 900));
         signinPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        signinFormPanel.setBackground(new java.awt.Color(255, 51, 51));
+        signinFormPanel.setBackground(new java.awt.Color(0, 0, 0));
         signinFormPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblSignin.setFont(new java.awt.Font("Optima", 1, 20)); // NOI18N
-        lblSignin.setForeground(new java.awt.Color(204, 0, 51));
-        lblSignin.setText("Welcome to NUCC- We are Happy to Serve You!");
-        signinFormPanel.add(lblSignin, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, 50));
+        lblSignin.setForeground(new java.awt.Color(255, 255, 255));
+        lblSignin.setText("'' COVID-19 vaccination is one of the strongest tools we can use to fight this pandemic together ''");
+        signinFormPanel.add(lblSignin, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 0, 890, 50));
 
         lblUsername.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblUsername.setForeground(new java.awt.Color(204, 204, 204));
@@ -152,12 +151,10 @@ public class EntryJFrame extends javax.swing.JFrame {
         });
         signinFormPanel.add(btnSignin, new org.netbeans.lib.awtextra.AbsoluteConstraints(124, 361, 170, 40));
 
-        signinPanel.add(signinFormPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 271, 930, 510));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/injection.gif"))); // NOI18N
+        signinFormPanel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, 390, 260));
 
-        iconLogo.setBackground(new java.awt.Color(51, 51, 51));
-        iconLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        iconLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Logo-signin.png"))); // NOI18N
-        signinPanel.add(iconLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(402, 38, 603, 277));
+        signinPanel.add(signinFormPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 1090, 580));
 
         iconExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/exit.png"))); // NOI18N
         iconExit.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -167,20 +164,19 @@ public class EntryJFrame extends javax.swing.JFrame {
         });
         signinPanel.add(iconExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(1376, 14, -1, -1));
 
-        lblRights.setFont(new java.awt.Font("Lucida Grande", 0, 12)); // NOI18N
+        lblRights.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         lblRights.setForeground(new java.awt.Color(204, 204, 204));
-        lblRights.setText("All rights reserved NUCC 2021");
-        signinPanel.add(lblRights, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 880, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/copyright.png"))); // NOI18N
-        signinPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 880, 30, 20));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/trademark.png"))); // NOI18N
-        signinPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 880, -1, -1));
+        lblRights.setText("All rights reserved");
+        signinPanel.add(lblRights, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 810, 180, -1));
 
         jLabel3.setBackground(new java.awt.Color(255, 51, 51));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/gradient_img.png"))); // NOI18N
         signinPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, 390, 900));
+
+        jLabel4.setFont(new java.awt.Font("PT Mono", 1, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("VACCINE DISTRIBUTED SYSTEM");
+        signinPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 50, 590, 60));
 
         getContentPane().add(signinPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
@@ -394,12 +390,11 @@ public class EntryJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel cardPanel;
     private javax.swing.JCheckBox chkTerms;
     private javax.swing.JLabel iconExit;
-    private javax.swing.JLabel iconLogo;
     private javax.swing.JLabel iconLogoSmall;
     private javax.swing.JLabel iconSignout;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel lblPassword;
     private javax.swing.JLabel lblRights;
     private javax.swing.JLabel lblSignin;

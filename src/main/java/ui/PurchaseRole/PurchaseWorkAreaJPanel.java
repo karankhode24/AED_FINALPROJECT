@@ -70,7 +70,7 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
         tblVaccine = new javax.swing.JTable();
         btnRequest = new javax.swing.JButton();
         cardRequestPanel = new javax.swing.JPanel();
-        lblTitle = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
@@ -108,26 +108,28 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
                 btnRequestActionPerformed(evt);
             }
         });
-        add(btnRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 410, -1, -1));
+        add(btnRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 400, -1, -1));
 
         cardRequestPanel.setBackground(new java.awt.Color(0, 0, 0));
         cardRequestPanel.setMinimumSize(new java.awt.Dimension(670, 848));
         cardRequestPanel.setPreferredSize(new java.awt.Dimension(670, 848));
         cardRequestPanel.setLayout(new java.awt.CardLayout());
-        add(cardRequestPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 0, -1, -1));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PURCHASEWORKAREA.png"))); // NOI18N
-        add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/purchase.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        cardRequestPanel.add(jLabel1, "card2");
+
+        add(cardRequestPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 0, -1, -1));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, 230, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRequestActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRequestActionPerformed
@@ -152,9 +154,9 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnRequest;
     private javax.swing.JPanel cardRequestPanel;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblText;
-    private javax.swing.JLabel lblTitle;
     private javax.swing.JLabel lblValue;
     private javax.swing.JTable tblVaccine;
     // End of variables declaration//GEN-END:variables

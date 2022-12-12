@@ -160,7 +160,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         lblName.setText("Name:");
         add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 390, -1, 40));
 
-        txtName.setBackground(new java.awt.Color(0, 255, 255));
+        txtName.setBackground(new java.awt.Color(0, 153, 153));
         txtName.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtName.setForeground(new java.awt.Color(255, 255, 255));
         txtName.setBorder(null);

@@ -75,8 +75,8 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
         lblEmail = new javax.swing.JLabel();
         txtEmail = new javax.swing.JTextField();
         separatorLine = new javax.swing.JSeparator();
-        lblTitle = new javax.swing.JLabel();
         iconBack = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -88,11 +88,11 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
         lblHospital.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblHospital.setForeground(new java.awt.Color(255, 255, 255));
         lblHospital.setText("Select Hospital:");
-        add(lblHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, -1, -1));
+        add(lblHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
         cmbHospital.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         cmbHospital.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        add(cmbHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, -1, -1));
+        add(cmbHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 370, -1, -1));
 
         btnRequest.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnRequest.setText("Request");
@@ -101,26 +101,23 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
                 btnRequestActionPerformed(evt);
             }
         });
-        add(btnRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, -1, -1));
+        add(btnRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 490, -1, -1));
 
         lblEmail.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblEmail.setForeground(new java.awt.Color(255, 255, 255));
         lblEmail.setText("Enter your Email:");
-        add(lblEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, -1, -1));
+        add(lblEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, -1, -1));
 
-        txtEmail.setBackground(new java.awt.Color(51, 255, 255));
+        txtEmail.setBackground(new java.awt.Color(0, 153, 153));
         txtEmail.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtEmail.setForeground(new java.awt.Color(255, 255, 255));
         txtEmail.setBorder(null);
-        add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 90, 290, 30));
+        add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 420, 290, 30));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 280, 80));
-
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PERSONWORKAREA.png"))); // NOI18N
-        add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
+        add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 450, 280, 80));
 
         iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/back.png"))); // NOI18N
         iconBack.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -128,7 +125,11 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
                 iconBackMousePressed(evt);
             }
         });
-        add(iconBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 20, -1, -1));
+        add(iconBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/mail.gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, 1000, 840));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRequestActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRequestActionPerformed
@@ -199,9 +200,9 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> cmbHospital;
     private javax.swing.JLabel iconBack;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblEmail;
     private javax.swing.JLabel lblHospital;
-    private javax.swing.JLabel lblTitle;
     private javax.swing.JSeparator separatorLine;
     private javax.swing.JTextField txtEmail;
     // End of variables declaration//GEN-END:variables

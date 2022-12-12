@@ -75,7 +75,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
         btnDelete = new javax.swing.JButton();
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
-        lblTitle = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
@@ -89,7 +89,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnSendSampleActionPerformed(evt);
             }
         });
-        add(btnSendSample, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, -1, -1));
+        add(btnSendSample, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 510, 210, -1));
 
         tblRequest.setBackground(new java.awt.Color(0, 204, 255));
         tblRequest.setForeground(new java.awt.Color(0, 204, 255));
@@ -111,7 +111,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
         tblRequest.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane1.setViewportView(tblRequest);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 690, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 690, 220));
 
         btnAddVaccine.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnAddVaccine.setText("Add Vaccine");
@@ -120,7 +120,7 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnAddVaccineActionPerformed(evt);
             }
         });
-        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 210, -1));
+        add(btnAddVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, 210, -1));
 
         btnDelete.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnDelete.setText("Delete Vaccine");
@@ -129,20 +129,21 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
                 btnDeleteActionPerformed(evt);
             }
         });
-        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 210, -1));
+        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 210, -1));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));
         lblText.setText("Currently Logged in as:");
-        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, -1, 30));
+        add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, -1, 30));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
-        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 210, 230, 30));
+        add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 380, 230, 30));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/MANUFACTURINGWORKAREA.png"))); // NOI18N
-        add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, 90, 850));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/vials-package-02.gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 70, 610, 450));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSendSampleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSendSampleActionPerformed
@@ -260,9 +261,9 @@ public class ManufacturingWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnAddVaccine;
     private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnSendSample;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblText;
-    private javax.swing.JLabel lblTitle;
     private javax.swing.JLabel lblValue;
     private javax.swing.JTable tblRequest;
     // End of variables declaration//GEN-END:variables

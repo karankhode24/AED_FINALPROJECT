@@ -66,6 +66,7 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
         separatorLine1 = new javax.swing.JSeparator();
         lblTitle = new javax.swing.JLabel();
         iconBack = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
@@ -133,6 +134,10 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
             }
         });
         add(iconBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 20, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/covid19.gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(465, 30, 570, 510));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNameActionPerformed
@@ -180,6 +185,7 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAddVaccine;
     private javax.swing.JLabel iconBack;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblAddVaccine;
     private javax.swing.JLabel lblName;
     private javax.swing.JLabel lblScientific;

@@ -596,8 +596,8 @@ public class LabAreaJPanel extends javax.swing.JPanel {
     private void btnSendReportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSendReportActionPerformed
         // TODO add your handling code here:
         String toEmail = txtTo.getText();
-        String fromEmail = "nuccfall2021@gmail.com";
-        String fromEmailPassword = "nuccnucc";
+        String fromEmail = "naman.gujarathi250497@gmail.com";
+        String fromEmailPassword = "kkutgxocjwhjgoyh";
         String subject = "Report from NUCC";
         
         Properties props = new Properties();
