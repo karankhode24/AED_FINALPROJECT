@@ -10,3 +10,11 @@ The application has a main page System Admin page which has multiple functionali
 A person will go to a doctor for a checkup. The doctor will generate reports from the lab. Once the report is generated from the lab, generated lab report is sent to the patient and doctor. The doctor will prescribe medicines according to the report. The manufacturer will come to know about the requirement for vaccines in the market. The manufacturer will create a vaccine and send the sample to Economy for the test. The economy will validate vaccines such as approve or reject. It will set the price per dose and time duration in days between two doses. Manufacturers will create medicine according to the requirement of the market. Manufactured medicines will be sent to suppliers. Suppliers will sell vaccines to Purchase. The purchase will supply vaccines to the distributor. The distributor will send vaccines to the person.
 
 
+Class Diagram
+
+![AED Class Diag drawio](https://user-images.githubusercontent.com/113138473/206946583-8f9575fe-7636-412e-ae9e-8f7663c05f5d.png)
+
+Sequence Diagram
+
+![sequence](https://user-images.githubusercontent.com/113138473/206946605-1b17fa80-c7c8-4a7f-ac5c-dfce4d849099.png)
+
