@@ -20,7 +20,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="ff" green="ff" red="99" type="rgb"/>
+      <Color blue="0" green="0" red="0" type="rgb"/>
     </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[1440, 848]"/>
@@ -120,7 +120,7 @@
     <Component class="javax.swing.JTextField" name="txtEmail">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="0" type="rgb"/>
+          <Color blue="ff" green="ff" red="33" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Optima" size="16" style="0"/>
@@ -159,7 +159,7 @@
     <Component class="javax.swing.JLabel" name="lblTitle">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Images/PERSONWORKAREA.png"/>
+          <Image iconType="3" name="/main/resources/PERSONWORKAREA.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -171,7 +171,7 @@
     <Component class="javax.swing.JLabel" name="iconBack">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Images/back.png"/>
+          <Image iconType="3" name="/main/resources/back.png"/>
         </Property>
       </Properties>
       <Events>

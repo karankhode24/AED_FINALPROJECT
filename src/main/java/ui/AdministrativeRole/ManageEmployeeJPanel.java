@@ -86,7 +86,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         separatorLine2 = new javax.swing.JSeparator();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1190, 848));
         setPreferredSize(new java.awt.Dimension(1190, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -139,7 +139,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                 btnCreateActionPerformed(evt);
             }
         });
-        add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 440, -1, -1));
+        add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 440, -1, 60));
 
         cmbOrganization.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         cmbOrganization.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -150,8 +150,8 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         });
         add(cmbOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 240, -1));
 
-        lblOrganization.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
-        lblOrganization.setForeground(new java.awt.Color(255, 255, 255));
+        lblOrganization.setFont(new java.awt.Font("Rockwell", 0, 16)); // NOI18N
+        lblOrganization.setForeground(new java.awt.Color(255, 255, 0));
         lblOrganization.setText("Organization:");
         add(lblOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
@@ -185,7 +185,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         separatorLine2.setPreferredSize(new java.awt.Dimension(1, 12));
         add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 420, 220, -1));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/EMPLOYEES.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/EMPLOYEES.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 0, 100, 850));
     }// </editor-fold>//GEN-END:initComponents
 

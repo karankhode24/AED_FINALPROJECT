@@ -67,7 +67,7 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
         lblTitle = new javax.swing.JLabel();
         iconBack = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -123,10 +123,10 @@ public class AddVaccineJPanel extends javax.swing.JPanel {
         separatorLine1.setPreferredSize(new java.awt.Dimension(1, 12));
         add(separatorLine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 220, 10));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/HEALTHWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/HEALTHWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, 90, 850));
 
-        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
+        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/back.png"))); // NOI18N
         iconBack.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 iconBackMousePressed(evt);

@@ -82,7 +82,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
 
         jTextField2.setText("jTextField2");
 
-        setBackground(new java.awt.Color(102, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -94,7 +94,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
                 btnVaccineActionPerformed(evt);
             }
         });
-        add(btnVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, -1, -1));
+        add(btnVaccine, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 110, 300, -1));
 
         btnAppointment.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnAppointment.setText("Schedule Appointment");
@@ -103,7 +103,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
                 btnAppointmentActionPerformed(evt);
             }
         });
-        add(btnAppointment, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 540, -1, -1));
+        add(btnAppointment, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 540, -1, 50));
 
         tblVaccineRequest.setBackground(new java.awt.Color(0, 204, 255));
         tblVaccineRequest.setForeground(new java.awt.Color(36, 47, 65));
@@ -123,7 +123,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
         tblVaccineRequest.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane2.setViewportView(tblVaccineRequest);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 530, 300));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 530, 160));
 
         tblAppoinment.setBackground(new java.awt.Color(51, 204, 255));
         tblAppoinment.setForeground(new java.awt.Color(36, 47, 65));
@@ -143,9 +143,9 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
         tblAppoinment.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane1.setViewportView(tblAppoinment);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 420, 140));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 530, 140));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PERSONWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PERSONWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblValue.setFont(new java.awt.Font("Optima", 1, 22)); // NOI18N
@@ -158,7 +158,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
         lblText.setText("Currently Logged in as:");
         add(lblText, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, 30));
 
-        PharmajTable.setBackground(new java.awt.Color(97, 212, 195));
+        PharmajTable.setBackground(new java.awt.Color(51, 204, 255));
         PharmajTable.setForeground(new java.awt.Color(36, 47, 65));
         PharmajTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -176,7 +176,7 @@ public class PersonWorkAreaJPanel extends javax.swing.JPanel {
         PharmajTable.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane3.setViewportView(PharmajTable);
 
-        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 670, 500, 140));
+        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 530, 140));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVaccineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVaccineActionPerformed
