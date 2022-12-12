@@ -83,6 +83,7 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         lblTitle = new javax.swing.JLabel();
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
+        VaccinationjDateChooser = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(153, 255, 255));
         setMinimumSize(new java.awt.Dimension(1440, 848));
@@ -156,7 +157,7 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         tblVaccine.setGridColor(new java.awt.Color(97, 212, 195));
         jScrollPane2.setViewportView(tblVaccine);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 520, 180));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, 520, 180));
 
         separatorLine1.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine1.setMinimumSize(new java.awt.Dimension(1, 12));
@@ -175,6 +176,9 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
         lblValue.setForeground(new java.awt.Color(97, 212, 195));
         lblValue.setText("<value>");
         add(lblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 230, 30));
+
+        VaccinationjDateChooser.setBackground(new java.awt.Color(36, 47, 65));
+        add(VaccinationjDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnScheduleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnScheduleActionPerformed
@@ -271,6 +275,7 @@ public class NDistirbutionWorkAreaJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private com.toedter.calendar.JDateChooser VaccinationjDateChooser;
     private javax.swing.JButton btnSchedule;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
