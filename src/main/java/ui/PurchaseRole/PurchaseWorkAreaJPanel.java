@@ -74,12 +74,12 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        tblVaccine.setBackground(new java.awt.Color(97, 212, 195));
+        tblVaccine.setBackground(new java.awt.Color(51, 204, 255));
         tblVaccine.setForeground(new java.awt.Color(36, 47, 65));
         tblVaccine.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -97,8 +97,6 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
             }
         ));
         tblVaccine.setGridColor(new java.awt.Color(97, 212, 195));
-        tblVaccine.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        tblVaccine.setRowHeight(20);
         jScrollPane1.setViewportView(tblVaccine);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 420, 180));
@@ -112,13 +110,13 @@ public class PurchaseWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 410, -1, -1));
 
-        cardRequestPanel.setBackground(new java.awt.Color(36, 47, 65));
+        cardRequestPanel.setBackground(new java.awt.Color(0, 0, 0));
         cardRequestPanel.setMinimumSize(new java.awt.Dimension(670, 848));
         cardRequestPanel.setPreferredSize(new java.awt.Dimension(670, 848));
         cardRequestPanel.setLayout(new java.awt.CardLayout());
         add(cardRequestPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 0, -1, -1));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PURCHASEWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PURCHASEWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N

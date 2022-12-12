@@ -80,7 +80,7 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -108,7 +108,7 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
         lblEmail.setText("Enter your Email:");
         add(lblEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, -1, -1));
 
-        txtEmail.setBackground(new java.awt.Color(0, 153, 255));
+        txtEmail.setBackground(new java.awt.Color(51, 255, 255));
         txtEmail.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         txtEmail.setForeground(new java.awt.Color(255, 255, 255));
         txtEmail.setBorder(null);
@@ -119,10 +119,10 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
         add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 280, 80));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PERSONWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PERSONWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
-        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
+        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/back.png"))); // NOI18N
         iconBack.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 iconBackMousePressed(evt);

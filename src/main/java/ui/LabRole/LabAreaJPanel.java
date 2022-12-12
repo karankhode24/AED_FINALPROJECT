@@ -113,7 +113,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         barPulse = new javax.swing.JProgressBar();
         barBloodPressure = new javax.swing.JProgressBar();
 
-        setBackground(new java.awt.Color(0, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -329,7 +329,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         lblTo.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblTo.setForeground(new java.awt.Color(255, 255, 255));
         lblTo.setText("To: ");
-        add(lblTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 610, -1, -1));
+        add(lblTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 520, -1, -1));
 
         txtTo.setBackground(new java.awt.Color(0, 204, 255));
         txtTo.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
@@ -340,7 +340,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
                 txtToActionPerformed(evt);
             }
         });
-        add(txtTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 610, 290, -1));
+        add(txtTo, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, 290, -1));
 
         txtareaReport.setBackground(new java.awt.Color(0, 204, 255));
         txtareaReport.setColumns(20);
@@ -350,12 +350,12 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         txtareaReport.setBorder(null);
         jScrollPane2.setViewportView(txtareaReport);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(234, 657, 280, 130));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 560, 280, 130));
 
         lblReport.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblReport.setForeground(new java.awt.Color(255, 255, 255));
         lblReport.setText("Comments about report:");
-        add(lblReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 660, -1, -1));
+        add(lblReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 570, -1, -1));
 
         btnSendReport.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSendReport.setText("Send Report to Person");
@@ -364,7 +364,7 @@ public class LabAreaJPanel extends javax.swing.JPanel {
                 btnSendReportActionPerformed(evt);
             }
         });
-        add(btnSendReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 810, -1, -1));
+        add(btnSendReport, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 620, -1, 70));
 
         separatorLine.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine.setMinimumSize(new java.awt.Dimension(1, 12));
@@ -379,9 +379,9 @@ public class LabAreaJPanel extends javax.swing.JPanel {
         separatorLine2.setForeground(new java.awt.Color(255, 255, 255));
         separatorLine2.setMinimumSize(new java.awt.Dimension(1, 12));
         separatorLine2.setPreferredSize(new java.awt.Dimension(1, 12));
-        add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 630, 220, 10));
+        add(separatorLine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 540, 220, 10));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/LABWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/LABWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblQ5.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N

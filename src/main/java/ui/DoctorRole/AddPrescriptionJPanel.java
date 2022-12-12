@@ -60,7 +60,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         iconBack = new javax.swing.JLabel();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -68,7 +68,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         lblMedList.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblMedList.setForeground(new java.awt.Color(255, 255, 255));
         lblMedList.setText("Medicine List:");
-        add(lblMedList, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+        add(lblMedList, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, 270, -1));
 
         txtareaMedList.setBackground(new java.awt.Color(0, 153, 204));
         txtareaMedList.setColumns(20);
@@ -78,7 +78,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         txtareaMedList.setBorder(null);
         jScrollPane1.setViewportView(txtareaMedList);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 330, -1));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 330, 150));
 
         btnSubmit.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         btnSubmit.setText("Submit");
@@ -87,9 +87,9 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
                 btnSubmitActionPerformed(evt);
             }
         });
-        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
+        add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 330, 50));
 
-        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
+        iconBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/back.png"))); // NOI18N
         iconBack.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 iconBackMousePressed(evt);
@@ -97,7 +97,7 @@ public class AddPrescriptionJPanel extends javax.swing.JPanel {
         });
         add(iconBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 30, -1, -1));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/DOCTORWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/DOCTORWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
     }// </editor-fold>//GEN-END:initComponents
 

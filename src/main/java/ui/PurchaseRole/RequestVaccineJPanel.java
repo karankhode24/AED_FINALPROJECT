@@ -84,7 +84,7 @@ public class RequestVaccineJPanel extends javax.swing.JPanel {
         btnOrder = new javax.swing.JButton();
         separatorLine = new javax.swing.JSeparator();
 
-        setBackground(new java.awt.Color(36, 47, 65));
+        setBackground(new java.awt.Color(153, 255, 255));
         setMinimumSize(new java.awt.Dimension(670, 848));
         setPreferredSize(new java.awt.Dimension(670, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -110,6 +110,7 @@ public class RequestVaccineJPanel extends javax.swing.JPanel {
 
         txtQuantity.setBackground(new java.awt.Color(36, 47, 65));
         txtQuantity.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
+        txtQuantity.setForeground(new java.awt.Color(255, 255, 255));
         txtQuantity.setBorder(null);
         txtQuantity.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
