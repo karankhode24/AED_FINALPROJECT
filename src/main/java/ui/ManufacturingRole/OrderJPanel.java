@@ -67,7 +67,7 @@ public class OrderJPanel extends javax.swing.JPanel {
         btnReject = new javax.swing.JButton();
         separatorLine = new javax.swing.JSeparator();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

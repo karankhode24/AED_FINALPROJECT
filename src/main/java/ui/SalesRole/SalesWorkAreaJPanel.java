@@ -166,7 +166,7 @@ public class SalesWorkAreaJPanel extends javax.swing.JPanel {
         separatorLine.setPreferredSize(new java.awt.Dimension(1, 12));
         add(separatorLine, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, 180, -1));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/SALESWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/SALESWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N

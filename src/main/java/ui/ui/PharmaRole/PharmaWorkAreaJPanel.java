@@ -59,7 +59,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
         lblText = new javax.swing.JLabel();
         lblValue = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setMinimumSize(new java.awt.Dimension(1440, 848));
         setPreferredSize(new java.awt.Dimension(1440, 848));
@@ -71,7 +71,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
                 btnAvailableActionPerformed(evt);
             }
         });
-        add(btnAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 470, -1, -1));
+        add(btnAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 310, 50));
 
         tblMedList.setBackground(new java.awt.Color(51, 204, 255));
         tblMedList.setForeground(new java.awt.Color(36, 47, 65));
@@ -96,7 +96,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 630, 180));
 
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PHARMAWORKAREA.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/PHARMAWORKAREA.png"))); // NOI18N
         add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 0, 100, 850));
 
         btnNotAvailable.setText("Not Available");
@@ -105,7 +105,7 @@ public class PharmaWorkAreaJPanel extends javax.swing.JPanel {
                 btnNotAvailableActionPerformed(evt);
             }
         });
-        add(btnNotAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 470, -1, -1));
+        add(btnNotAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 330, 310, 50));
 
         lblText.setFont(new java.awt.Font("Optima", 0, 16)); // NOI18N
         lblText.setForeground(new java.awt.Color(255, 255, 255));

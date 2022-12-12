@@ -131,7 +131,7 @@
                 <Component class="javax.swing.JLabel" name="iconNetwork">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Images/managenetwork.png"/>
+                      <Image iconType="3" name="/main/resources/managenetwork.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -196,7 +196,7 @@
                 <Component class="javax.swing.JLabel" name="iconEnterprise">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Images/manageenterprise.png"/>
+                      <Image iconType="3" name="/main/resources/manageenterprise.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -252,7 +252,7 @@
                 <Component class="javax.swing.JLabel" name="iconAdmin">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Images/manageadminprofiles.png"/>
+                      <Image iconType="3" name="/main/resources/manageadminprofiles.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -320,7 +320,7 @@
             <Component class="javax.swing.JLabel" name="lblTitle">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Images/SYSADMIN.png"/>
+                  <Image iconType="3" name="/main/resources/SYSADMIN.png"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="4"/>
               </Properties>
